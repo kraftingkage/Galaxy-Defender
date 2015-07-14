@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.Health = 100;
+            <string>enum e_state{
+idle,
+chase
+}
+global.Gas = 100;
+global.Health = 100;
 global.Checkpoint = 0;
 
 </string>
