@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprLaser</sprite>
     <sprite>sprites\sprPlayerShip</sprite>
     <sprites name="Enemy Ships">
       <sprite>sprites\sprEnemyShip</sprite>
@@ -16,16 +15,47 @@
     </sprites>
     <sprites name="Boss Ships">
       <sprite>sprites\sprBossShip</sprite>
-      <sprite>sprites\sprite8</sprite>
-      <sprite>sprites\sprite9</sprite>
-      <sprite>sprites\sprite10</sprite>
+      <sprite>sprites\sprBossShip2</sprite>
+      <sprite>sprites\sprBossShip3</sprite>
+      <sprite>sprites\sprBossShip4</sprite>
+    </sprites>
+    <sprites name="Wepons">
+      <sprite>sprites\sprLaser</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scrSave.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\objInit</object>
+    <objects name="Enemy Ships">
+      <object>objects\objEnemyShipParent</object>
+      <object>objects\objEnemyShip</object>
+      <object>objects\objEnemyShip2</object>
+      <object>objects\objEnemyShip3</object>
+      <object>objects\objEnemyShip4</object>
+      <objects name="Boss Ships">
+        <object>objects\objBossShip</object>
+        <object>objects\objBossShip2</object>
+        <object>objects\obhBossShip3</object>
+        <object>objects\objBossShip4</object>
+        <object>objects\objBossShipParent</object>
+      </objects>
+    </objects>
+    <objects name="Initalize">
+      <object>objects\objInit</object>
+    </objects>
+    <objects name="Player Ships">
+      <object>objects\objPlayerShip</object>
+    </objects>
+    <objects name="Wepons">
+      <object>objects\objLaser</object>
+    </objects>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\roomTest</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
