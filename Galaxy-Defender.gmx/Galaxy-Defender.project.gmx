@@ -12,6 +12,7 @@
       <sprite>sprites\sprEnemyShip2</sprite>
       <sprite>sprites\sprEnemyShip3</sprite>
       <sprite>sprites\sprEnemyShip4</sprite>
+      <sprite>sprites\Exploded_ship</sprite>
     </sprites>
     <sprites name="Boss Ships">
       <sprite>sprites\sprBossShip</sprite>
