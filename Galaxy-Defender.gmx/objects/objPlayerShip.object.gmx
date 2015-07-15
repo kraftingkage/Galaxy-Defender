@@ -32,29 +32,6 @@ pointy = mouse_y;
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.Gas -= 0.5;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -72,13 +49,36 @@ pointy = mouse_y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle = point_direction(x,y,mouse_x,mouse_y) + 270
-//Move when you click space
+            <string>//Mouse Ctrls
+
+if(global.ctrl = 0){
+image_angle = point_direction(x,y,mouse_x,mouse_y) + 270
 if (keyboard_check(vk_space)){ 
 move_towards_point(mouse_x,mouse_y,7);
-alarm[0] = 30;
 }else{
 move_towards_point(mouse_x,mouse_y,0)
+}
+}
+
+
+//Keyboard Ctrls
+if(global.ctrl = 1){
+    if(keyboard_check(ord("W"))){
+        speed = 7;
+    }else{
+        speed = 0;
+    }
+if(keyboard_check(ord("D"))){
+    direction -= 5;
+}else{
+    if(keyboard_check(ord("A"))){
+        direction += 5;
+    }
+    }
+image_angle = direction +270 ;
+
+
+
 }
 </string>
           </argument>
@@ -105,6 +105,49 @@ move_towards_point(mouse_x,mouse_y,0)
             <string>instance_create(x+24,y+10,objLaser);
 instance_create(x-24,y+10,objLaser);
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="96">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>scrSave();
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>roomOptions</room>
           </argument>
         </arguments>
       </action>

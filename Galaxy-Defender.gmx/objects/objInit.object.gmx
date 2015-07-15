@@ -32,6 +32,7 @@ chase
 global.Gas = 100;
 global.Health = 100;
 global.Checkpoint = 0;
+global.ctrl = 1;
 
 </string>
           </argument>

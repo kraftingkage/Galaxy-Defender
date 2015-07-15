@@ -23,9 +23,16 @@
     <sprites name="Wepons">
       <sprite>sprites\sprLaser</sprite>
     </sprites>
+    <sprites name="Other">
+      <sprites name="Options">
+        <sprite>sprites\sprButtonOff</sprite>
+        <sprite>sprites\sprButtonOn</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgMain</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -48,6 +55,11 @@
     </objects>
     <objects name="Initalize">
       <object>objects\objInit</object>
+      <objects name="Options">
+        <object>objects\objOptions</object>
+        <object>objects\objButtonOff</object>
+        <object>objects\objButtonOn</object>
+      </objects>
     </objects>
     <objects name="Player Ships">
       <object>objects\objPlayerShip</object>
@@ -58,6 +70,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\roomTest</room>
+    <room>rooms\roomOptions</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
