@@ -25,16 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>enum e_state{
-idle,
-chase
-}
-global.Gas = 100;
-global.Health = 100;
-global.Checkpoint = 0;
-global.ctrl = 1;
-
-
+            <string>ini_open("save.ini");
+global.Health = ini_read_real("Save","health",100);
+global.checkpoint = ini_read_real("Save","checkpoint",0);
+global.ctrl = ini_read_real("Options","ctrl",1);
+ini_close();
 </string>
           </argument>
         </arguments>

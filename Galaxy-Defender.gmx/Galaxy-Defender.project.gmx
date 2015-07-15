@@ -27,12 +27,14 @@
       <sprites name="Options">
         <sprite>sprites\sprButtonOff</sprite>
         <sprite>sprites\sprButtonOn</sprite>
+        <sprite>sprites\sprOptionsMenu</sprite>
       </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgMain</background>
     <background>background\background1</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -59,7 +61,9 @@
         <object>objects\objOptions</object>
         <object>objects\objButtonOff</object>
         <object>objects\objButtonOn</object>
+        <object>objects\objOptionsButtonMenu</object>
       </objects>
+      <object>objects\objLoad</object>
     </objects>
     <objects name="Player Ships">
       <object>objects\objPlayerShip</object>

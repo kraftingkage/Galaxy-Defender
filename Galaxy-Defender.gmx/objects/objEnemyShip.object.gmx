@@ -58,7 +58,7 @@ instance_destroy();
 switch(state){
     case e_state.idle:
     {
-    if(distance_to_object(objPlayerShip) &lt;96) state = e_state.chase;
+    if(distance_to_object(objPlayerShip) &lt;400) state = e_state.chase;
     image_angle = point_direction(x,y,objPlayerShip.x,objPlayerShip.y) + 90;
     move_towards_point(objPlayerShip.x,objPlayerShip.y,0);
     }
@@ -67,7 +67,7 @@ switch(state){
     {
         image_angle = point_direction(x,y,objPlayerShip.x,objPlayerShip.y) + 90;
         move_towards_point(objPlayerShip.x,objPlayerShip.y,3); 
-        if(distance_to_object(objPlayerShip) &gt; 128) state = e_state.idle;
+        if(distance_to_object(objPlayerShip) &gt; 430) state = e_state.idle;
     }
     break;
 }
