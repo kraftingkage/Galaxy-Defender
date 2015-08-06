@@ -62,6 +62,7 @@
       <object>objects\objCursor</object>
       <object>objects\objLoad</object>
       <object>objects\objInit</object>
+      <object>objects\objXp</object>
       <objects name="Options">
         <object>objects\objOptions</object>
         <object>objects\objButtonOff</object>
