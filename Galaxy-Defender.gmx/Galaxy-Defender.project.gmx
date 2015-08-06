@@ -80,6 +80,9 @@
       <object>objects\objLaserEnemy</object>
     </objects>
     <object>objects\objSpawner</object>
+    <objects name="Other">
+      <object>objects\objXp</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomTest</room>
