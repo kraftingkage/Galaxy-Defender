@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,17 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>enum e_state{
-idle,
-chase
-}
-global.Level = 1
-global.xp = 0;
-global.Health = 100;
-global.Checkpoint = 0;
-global.ctrl = 1;
-
-
+            <string>//Exp
+draw_healthbar(view_xview[],view_yview[],view_xview[],view_yview[],global.xp,c_gray,c_lime,c_lime,1,true,true)
+//Health
+draw_healthbar(view_xview[],view_yview[],view_xview[],view_yview[],global.Health,c_gray,c_lime,c_lime,1,true,true)
 </string>
           </argument>
         </arguments>

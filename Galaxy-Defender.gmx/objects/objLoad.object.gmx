@@ -29,6 +29,7 @@
 global.Health = ini_read_real("Save","health",100);
 global.level = ini_read_real("Save","level",1);
 global.checkpoint = ini_read_real("Save","checkpoint",0);
+global.xp = ini_read_real("Save","xp",0);
 global.ctrl = ini_read_real("Options","ctrl",1);
 objPlayerShip.x = ini_read_real("Save","playerx",objPlayerShip.x);
 objPlayerShip.y = ini_read_real("Save","playery",objPlayerShip.y);
