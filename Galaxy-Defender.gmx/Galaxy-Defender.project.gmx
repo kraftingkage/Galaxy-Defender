@@ -29,6 +29,7 @@
         <sprite>sprites\sprButtonOn</sprite>
         <sprite>sprites\sprOptionsMenu</sprite>
       </sprites>
+      <sprite>sprites\SprXP</sprite>
       <sprite>sprites\sprCursor</sprite>
       <sprite>sprites\sprBackButton</sprite>
       <sprite>sprites\sprSpawner</sprite>
