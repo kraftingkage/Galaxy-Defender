@@ -4,6 +4,5 @@ ini_write_real("Save","checkpoint",global.Checkpoint);
 ini_write_real("Save","playerx",global.Playerx);
 ini_write_real("Save","playery",global.Playery);
 ini_write_real("Save","level",global.level);
-ini_write_real("Save","xp",global.xp);
 ini_write_real("Options","ctrl",global.ctrl);
 ini_close();
