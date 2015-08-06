@@ -49,7 +49,10 @@ pointy = mouse_y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Mouse Ctrls
+            <string>global.Playerx = x
+global.Playery = y
+
+//Mouse Ctrls
 
 if(global.ctrl = 0){
 image_angle = point_direction(x,y,mouse_x,mouse_y) + 270

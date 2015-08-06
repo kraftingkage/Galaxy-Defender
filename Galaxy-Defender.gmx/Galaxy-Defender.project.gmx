@@ -29,6 +29,9 @@
         <sprite>sprites\sprButtonOn</sprite>
         <sprite>sprites\sprOptionsMenu</sprite>
       </sprites>
+      <sprite>sprites\sprCursor</sprite>
+      <sprite>sprites\sprBackButton</sprite>
+      <sprite>sprites\sprSpawner</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -42,7 +45,7 @@
   </scripts>
   <objects name="objects">
     <objects name="Enemy Ships">
-      <object>objects\objEnemyShipParent</object>
+      <object>objects\objParent</object>
       <object>objects\objEnemyShip</object>
       <object>objects\objEnemyShip2</object>
       <object>objects\objEnemyShip3</object>
@@ -56,21 +59,25 @@
       </objects>
     </objects>
     <objects name="Initalize">
+      <object>objects\objCursor</object>
+      <object>objects\objLoad</object>
       <object>objects\objInit</object>
       <objects name="Options">
         <object>objects\objOptions</object>
         <object>objects\objButtonOff</object>
         <object>objects\objButtonOn</object>
         <object>objects\objOptionsButtonMenu</object>
+        <object>objects\objBackButton</object>
       </objects>
-      <object>objects\objLoad</object>
     </objects>
     <objects name="Player Ships">
       <object>objects\objPlayerShip</object>
     </objects>
     <objects name="Wepons">
       <object>objects\objLaser</object>
+      <object>objects\objLaserEnemy</object>
     </objects>
+    <object>objects\objSpawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomTest</room>
