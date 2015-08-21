@@ -49,11 +49,11 @@
           <argument>
             <kind>1</kind>
             <string>//Level 1
-if(global.level == 1){
+if(global.Level == 1){
     obj = objEnemyShip;
 }else{
     //Level 2
-    if(global.level == 2){
+    if(global.Level == 2){
         l2 = irandom(2);
         if(l2 == 1){
             obj = objEnemyShip
@@ -62,7 +62,7 @@ if(global.level == 1){
         }
     }else{
         //Level 3
-        if(global.level == 3){
+        if(global.Level == 3){
             l3 = irandom(3);
             if(l3 == 1) obj = objEnemyShip;
             if(l3 == 2) obj = objEnemyShip2;
@@ -70,7 +70,7 @@ if(global.level == 1){
         
         }else{
             //Level 4
-            if(global.level == 4){
+            if(global.Level == 4){
                 l4 = irandom(4);
                 if(l4 == 1) obj = objEnemyShip;
                 if(l4 == 2) obj = objEnemyShip2;
@@ -82,10 +82,6 @@ if(global.level == 1){
     }
     
 }
-
-
-
-
 instance_create(x,y,obj)
 alarm[0] = random(1200);
 </string>

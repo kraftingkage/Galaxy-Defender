@@ -46,7 +46,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>roomTest</room>
+            <room>StartMenu</room>
           </argument>
         </arguments>
       </action>

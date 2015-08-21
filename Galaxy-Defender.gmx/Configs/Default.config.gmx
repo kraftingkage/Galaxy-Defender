@@ -22,7 +22,9 @@
     <option_android_build_version>0</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
     <option_android_display_name>Galaxy-Defender</option_android_display_name>
-    <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
+    <option_android_flurry_enable>0</option_android_flurry_enable>
+    <option_android_flurry_id></option_android_flurry_id>
+    <option_android_google_analytics_enable>0</option_android_google_analytics_enable>
     <option_android_google_play>0</option_android_google_play>
     <option_android_google_play_id></option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
@@ -62,7 +64,7 @@
     <option_android_use_test_ads>0</option_android_use_test_ads>
     <option_argumenterrors>True</option_argumenterrors>
     <option_audioGroupCount>1</option_audioGroupCount>
-    <option_author>D&amp;Kgames</option_author>
+    <option_author>D&amp;KGames</option_author>
     <option_backimage>nil</option_backimage>
     <option_borderless>False</option_borderless>
     <option_changed>false</option_changed>
@@ -78,8 +80,8 @@
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
     <option_fullscreen>False</option_fullscreen>
-    <option_gameguid>{95F32E88-917D-48CD-BF7E-4B687F24F589}</option_gameguid>
-    <option_gameid>535094927</option_gameid>
+    <option_gameguid>{F20445F4-FA7F-41B8-93D2-C49E836CF990}</option_gameguid>
+    <option_gameid>183750010</option_gameid>
     <option_haptic_effects>0</option_haptic_effects>
     <option_hasloadimage>false</option_hasloadimage>
     <option_helpkey>true</option_helpkey>
@@ -128,9 +130,9 @@
     <option_ios_certificate>&lt; Press refresh to fetch certificate list from Mac&gt;</option_ios_certificate>
     <option_ios_device_type>3</option_ios_device_type>
     <option_ios_display_name>Galaxy-Defender</option_ios_display_name>
-    <option_ios_flurry_enable>false</option_ios_flurry_enable>
+    <option_ios_flurry_enable>0</option_ios_flurry_enable>
     <option_ios_flurry_id></option_ios_flurry_id>
-    <option_ios_google_analytics_enable>false</option_ios_google_analytics_enable>
+    <option_ios_google_analytics_enable>0</option_ios_google_analytics_enable>
     <option_ios_google_play_id></option_ios_google_play_id>
     <option_ios_google_tracking_id></option_ios_google_tracking_id>
     <option_ios_icon_114>Configs\Default\ios\icons\icon114.png</option_ios_icon_114>
@@ -224,7 +226,8 @@
     <option_ps4_major_version>1</option_ps4_major_version>
     <option_ps4_minor_version>0</option_ps4_minor_version>
     <option_ps4_nptitleid></option_ps4_nptitleid>
-    <option_ps4_nptitlesecret>Memo1</option_ps4_nptitlesecret>
+    <option_ps4_nptitlesecret>Memo1
+</option_ps4_nptitlesecret>
     <option_ps4_package_id></option_ps4_package_id>
     <option_ps4_passcode></option_ps4_passcode>
     <option_ps4_revision_version>0</option_ps4_revision_version>
@@ -233,6 +236,7 @@
     <option_psvita_build_version>0</option_psvita_build_version>
     <option_psvita_fronttouch>0</option_psvita_fronttouch>
     <option_psvita_interpolate>-1</option_psvita_interpolate>
+    <option_psvita_interpolation>true</option_psvita_interpolation>
     <option_psvita_major_version>1</option_psvita_major_version>
     <option_psvita_minor_version>0</option_psvita_minor_version>
     <option_psvita_nptitleid></option_psvita_nptitleid>
@@ -251,14 +255,14 @@
     <option_scaleprogress>true</option_scaleprogress>
     <option_sci_UseSCI>0</option_sci_UseSCI>
     <option_sci_serverLocation></option_sci_serverLocation>
-    <option_screenkey>True</option_screenkey>
+    <option_screenkey>False</option_screenkey>
     <option_screenshotkey>true</option_screenshotkey>
     <option_shortcircuit>True</option_shortcircuit>
     <option_showcursor>False</option_showcursor>
     <option_showprogress>1</option_showprogress>
     <option_sizeable>False</option_sizeable>
     <option_stayontop>false</option_stayontop>
-    <option_sync_vertex>0</option_sync_vertex>
+    <option_sync_vertex>1</option_sync_vertex>
     <option_textureGroup0_border>2</option_textureGroup0_border>
     <option_textureGroup0_nocropping>0</option_textureGroup0_nocropping>
     <option_textureGroup0_parent>&lt;none&gt;</option_textureGroup0_parent>

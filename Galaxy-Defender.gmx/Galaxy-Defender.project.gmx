@@ -12,7 +12,6 @@
       <sprite>sprites\sprEnemyShip2</sprite>
       <sprite>sprites\sprEnemyShip3</sprite>
       <sprite>sprites\sprEnemyShip4</sprite>
-      <sprite>sprites\Exploded_ship</sprite>
     </sprites>
     <sprites name="Boss Ships">
       <sprite>sprites\sprBossShip</sprite>
@@ -43,10 +42,11 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scrSave.gml</script>
+    <script>scripts\sc_res.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Enemy Ships">
-      <object>objects\objParent</object>
+      <object>objects\objShips</object>
       <object>objects\objEnemyShip</object>
       <object>objects\objEnemyShip2</object>
       <object>objects\objEnemyShip3</object>
@@ -79,14 +79,26 @@
       <object>objects\objLaser</object>
       <object>objects\objLaserEnemy</object>
     </objects>
-    <object>objects\objSpawner</object>
     <objects name="Other">
-      <object>objects\objXp</object>
+      <objects name="EXP">
+        <object>objects\objXpL1</object>
+        <object>objects\objXpL2</object>
+        <object>objects\objXpL3</object>
+        <object>objects\objXpL4</object>
+      </objects>
+      <object>objects\objSpawner</object>
+      <objects name="StartMenu">
+        <object>objects\objQuitButton</object>
+        <object>objects\objHelpButton</object>
+        <object>objects\objStartButton</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\roomTest</room>
-    <room>rooms\roomOptions</room>
+    <room>rooms\StartMenu</room>
+    <rooms name="Other">
+      <room>rooms\roomOptions</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

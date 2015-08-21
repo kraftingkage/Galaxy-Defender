@@ -56,16 +56,16 @@
     <instance objName="objLoad" x="32" y="0" name="inst_816F2C04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objOptionsButtonMenu" x="192" y="160" name="inst_0BADCDB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCursor" x="128" y="64" name="inst_6E8ADE65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawner" x="448" y="896" name="inst_294923E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawner" x="224" y="160" name="inst_294923E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawner" x="5120" y="896" name="inst_1F6F8129" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawner" x="4960" y="5216" name="inst_0D81C421" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawner" x="2560" y="3648" name="inst_5AC807D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawner" x="8736" y="3616" name="inst_F89B75A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawner" x="7264" y="7584" name="inst_6D94AF01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawner" x="2336" y="7552" name="inst_DC6026BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objXp" x="480" y="256" name="inst_66CE9576" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objXp" x="352" y="128" name="inst_7AE2FE62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objXp" x="608" y="128" name="inst_B3BA9AC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objXpL1" x="480" y="256" name="inst_66CE9576" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objXpL1" x="352" y="128" name="inst_7AE2FE62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objXpL1" x="608" y="128" name="inst_B3BA9AC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBars" x="32" y="96" name="inst_E44FF5A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
