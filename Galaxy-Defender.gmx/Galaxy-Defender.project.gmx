@@ -62,6 +62,7 @@
     </objects>
     <objects name="Initalize">
       <object>objects\objCursor</object>
+      <object>objects\objPersistant</object>
       <object>objects\objBars</object>
       <object>objects\objLoad</object>
       <object>objects\objInit</object>

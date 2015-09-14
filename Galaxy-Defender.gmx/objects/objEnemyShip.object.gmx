@@ -28,7 +28,10 @@
             <string>alarm[2] = 1
 hp = 100;
 global.ES1R = 1;
-
+xppos = irandom(500);
+yppos = irandom(500)
+xpos = x + xppos;
+ypos = y + yppos;
 </string>
           </argument>
         </arguments>
