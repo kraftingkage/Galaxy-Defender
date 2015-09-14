@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayerShip</sprite>
     <sprites name="Enemy Ships">
@@ -42,7 +44,6 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scrSave.gml</script>
-    <script>scripts\sc_res.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Enemy Ships">
@@ -61,6 +62,7 @@
     </objects>
     <objects name="Initalize">
       <object>objects\objCursor</object>
+      <object>objects\objSplash</object>
       <object>objects\objBars</object>
       <object>objects\objLoad</object>
       <object>objects\objInit</object>
@@ -95,6 +97,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Splash_Loading</room>
     <room>rooms\StartMenu</room>
     <rooms name="Other">
       <room>rooms\roomOptions</room>

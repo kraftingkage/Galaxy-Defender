@@ -112,7 +112,7 @@ instance_create(x-40,y+15,objLaser);
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="2">
+    <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -129,8 +129,7 @@ instance_create(x-40,y+15,objLaser);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sc_res(display_get_width(),display_get_height()) //Change sc_res to whatever you name this script.
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
