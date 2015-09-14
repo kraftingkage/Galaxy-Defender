@@ -62,7 +62,6 @@
     </objects>
     <objects name="Initalize">
       <object>objects\objCursor</object>
-      <object>objects\objSplash</object>
       <object>objects\objBars</object>
       <object>objects\objLoad</object>
       <object>objects\objInit</object>
@@ -97,8 +96,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Splash_Loading</room>
-    <room>rooms\StartMenu</room>
+    <room>rooms\LevelOne</room>
     <rooms name="Other">
       <room>rooms\roomOptions</room>
     </rooms>
