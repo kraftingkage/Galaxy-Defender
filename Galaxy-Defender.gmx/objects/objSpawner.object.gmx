@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = irandom(1200);
+            <string>obj = objEnemyShip;
+alarm[0] = irandom(1200);
 </string>
           </argument>
         </arguments>
@@ -101,5 +102,8 @@ alarm[0] = random(1200);
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>64,64</point>
+    <point>64,64</point>
+  </PhysicsShapePoints>
 </object>

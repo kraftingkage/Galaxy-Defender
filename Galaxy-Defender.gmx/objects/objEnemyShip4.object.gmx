@@ -25,9 +25,62 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp = 100;
-state = e_state.idle;
-
+            <string>alarm[2] = 1
+hp = 100;
+global.ES1R = 1;
+xppos = irandom(500);
+yppos = irandom(500)
+xpos = x + xppos;
+ypos = y + yppos;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>xppos = irandom(500);
+yppos = irandom(500)
+xpos = x + xppos;
+ypos = y + yppos;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.ES1R = 1;
 </string>
           </argument>
         </arguments>
@@ -79,11 +132,26 @@ effect_create_above(ef_explosion,x,y,3,c_gray);
 instance_create(x,y,objXpL1);
 instance_destroy();
 }
-distance =distance_to_object(objPlayerShip);
-if(distance &gt;20){
-    move_towards_point(objPlayerShip.x,objPlayerShip.y,3);
+if(point_distance(x, y,objPlayerShip.x,objPlayerShip.y) &lt; 500)
+{
+    move_towards_point(objPlayerShip.x, objPlayerShip.y, 3);
+    image_angle = point_direction(x,y,objPlayerShip.x,objPlayerShip.y) + 90
 }
+else{
+speed = 0;
+    if(global.ES1R == 1){
+        alarm[2] = 60;
+        alarm[1] = 300
+        global.ES1R = 0;
+    }
+    if(x !=xpos){
+        if(y !=ypos){
+            move_towards_point(xpos,ypos,1);
+            image_angle = point_direction(x,y,xpos,ypos) + 90
+        }
+    }
 
+}
 </string>
           </argument>
         </arguments>
